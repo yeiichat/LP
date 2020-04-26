@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800&display=swap');
+
+/*  Navbar  */
+.navbar-expand-lg{
+    height: 1 rem;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+
+.nav-section-brand{
+    padding-left: 8rem!important;
+}
+
+.nav-section-button{
+    padding-right: 8rem!important;
+}
+
+@media only screen and (max-width: 1000px){
+    .nav-section-brand{
+        padding-left: 1rem!important;
+    }
+
+    .nav-section-button{
+        padding-right: 1rem!important;
+    }
+} 
+
+.nav-button{
+    background-color: #4DCFCF!important;
+    border-radius: 5rem!important;
+    height: 2.6rem!important;
+    width: 12rem!important;
+    color: white!important;
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 600!important;
+    font-style: normal!important;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .nav-button{
+        background-color: #4DCFCF!important;
+        border-radius: 5rem!important;
+         height: 2.6rem!important;
+        width: 9rem!important;
+        color: white!important;
+        font-family: 'Montserrat', sans-serif!important;
+        font-weight: 600!important;
+        font-style: normal!important;
+        font-size: 0.9rem;
+    }
+} 
+
+
+
+/*  first section  */
+.section-1-border{
+    border-radius: 0px 0px 35px 35px;
+    background-color:white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+
+.section-1{
+    border-radius: 0px 0px 35px 35px;
+    background-color: #F0F2F2;
+}
+
+.headline-section-1{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: #000000;
+    letter-spacing: -0.03em;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .headline-section-1{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+        color: #000000;
+        letter-spacing: -0.03em;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.paragraph-1{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 20rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .paragraph-1{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.img-hero{
+    position: absolute;
+    bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.img-hero-mobile{
+    margin-bottom: 5rem;
+}
+
+
+
+/*  second section  */
+
+.img-section-2{
+    margin-top: 7rem;
+    margin-bottom: 9rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .img-section-2{
+        margin-top: 6rem;
+        margin-bottom: 0rem;
+    }
+}
+
+.section-card-2{
+    margin-top: 3rem;
+}
+
+.section-2-card{
+    border-radius: 2.2rem!important;
+    height: 30rem;
+    border-color: white!important;
+    padding: 3rem;
+    margin-top: 4.5rem;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .section-2-card{
+        border-radius: 2rem!important;
+        height: 20rem;
+        border-color: white!important;
+        padding: 2rem;
+    }
+}
+
+/*
+.card-body{
+    margin-top: 4.5rem;
+}
+*/
+
+@media only screen and (max-width: 1000px){
+    .card-body{
+        margin-top: 0rem;
+    }
+}
+
+.section-2-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: -0.03em;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-2-paragraph{
+        font-family: 'Montserrat', sans-serif!important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        letter-spacing: -0.03em;
+    }
+}
+
+
+/*  third section  */
+.section-3{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-3{
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+}
+
+.section-3-headline{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    font-weight: 610;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-3-headline{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        letter-spacing: -0.03em;
+        font-weight: 610;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+}
+
+.section-3-card{
+    background-color: #F0F2F2!important;
+    border-color: #F0F2F2!important;
+    margin-bottom: 9rem!important;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-3-card{
+        background-color: #F0F2F2!important;
+        border-color: #F0F2F2!important;
+        margin-bottom: 7rem!important;
+    }
+    
+}
+
+.section-3-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.section-3-paragraph-bold{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1000px){
+    .space-section-3{
+        padding-bottom: 3rem;
+    }
+}
+
+
+/*  fourth section  */
+.section-4-border{
+    border-radius: 35px 35px 0px 0px;
+    background-color:white;
+    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-4-border{
+        border-radius: 35px 35px 0px 0px;
+        background-color:white;
+        box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0rem;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.section-4{
+    background-color: #F0F2F2;
+}
+
+.section-4-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-4-paragraph{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.margin-section-4{
+    margin-top: 3rem;
+}
+
+.img-section-4{
+    max-width: 120%!important;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .img-section-4{
+        max-width: 100%!important;
+        position: relative;
+        margin-top: 0rem;
+    }
+}
+
+.section-4-headline{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    font-weight: 610;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    padding-right: 5rem!important;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-4-headline{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        letter-spacing: -0.03em;
+        font-weight: 610;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        padding-right: 5rem!important;
+        padding-right: 0rem!important;
+        margin-top: 3rem;
+    }
+}
+
+
+/*  fifth section  */
+.section-5-border{
+    border-radius: 0px 0px 35px 35px;
+    background-color:white;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-5-border{
+        border-radius: 0px 0px 35px 35px;
+        background-color:white;
+        box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.section-5-headline{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    font-weight: 610;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    padding-right: 5rem!important;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-5-headline{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        letter-spacing: -0.03em;
+        font-weight: 610;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        padding-right: 5rem!important;
+        padding-right: 0rem!important;
+        margin-top: 3rem;
+    }
+}
+
+.img-section-5{
+    max-width: 120%!important;
+    position: absolute;
+    margin-top: 2rem;
+    padding-right: 8rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .img-section-5{
+        max-width: 100%!important;
+        position: relative;
+        margin-top: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+.section-5-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-5-paragraph{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.margin-section-5{
+    margin-top: 3rem;
+}
+
+/*  sixth section  */
+.section-6{
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-6{
+        margin-bottom: 0rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.section-6-headline{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    font-weight: 610;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    padding-right: 7rem!important;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-6-headline{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        letter-spacing: -0.03em;
+        font-weight: 610;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        padding-right: 5rem!important;
+        padding-right: 0rem!important;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.section-6-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-6-paragraph{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+
+.img-section-6{
+    max-width: 120%!important;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px){
+    .img-section-6{
+        max-width: 100%!important;
+        position: relative;
+        margin-top: 0rem;
+    }
+}
+
+.section-text-6{
+    padding-right: 5rem!important;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-text-6{
+        padding-right: 0rem!important;
+    }
+}
+
+
+/*  seventh section  */
+.section-7{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-7{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.section-7-headline{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    font-weight: 610;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-7-headline{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        letter-spacing: -0.03em;
+        font-weight: 610;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+}
+
+.section-7-paragraph{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-7-paragraph{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+
+.section-7-card{
+    border-radius: 2.2rem!important;
+    height: 25rem;
+    border-color: white!important;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-7-card{
+        border-radius: 2rem!important;
+        height: 20rem;
+        border-color: white!important;
+        padding: 2rem;
+    }
+}
+
+.section-card-7{
+    margin-top: 0rem;
+}
+
+.section-7-form{
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-7-form{
+        padding-top: 1.5rem;
+        padding-bottom: 5rem;
+        padding: 1rem;
+    }
+}
+
+.section-7-text-form{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.section-7-input{
+    border-color: white!important;
+    border-radius: 3rem!important;
+
+}
+
+.form-button{
+    background-color: #4DCFCF!important;
+    border-radius: 5rem!important;
+    height: 2.6rem!important;
+    width: 12rem!important;
+    color: white!important;
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 600!important;
+    font-style: normal!important;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/*  eigth section  */
+.section-8-border{
+    padding-top: 5em;
+    padding-bottom: 5rem;
+    border-radius: 35px 35px 0px 0px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-8-border{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.section-8-links{
+    margin-top: 5rem; 
+}
+
+.section-8-contact{
+    margin-top: 2rem; 
+}
+
+.section-8-img{
+    width: 12%;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-8-img{
+        width: 15%;
+        margin-bottom: 3rem;
+    }
+}
+
+.section-8-text{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    .section-8-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.4;
+        color: white;
+    }
+}
+
+
